@@ -1,12 +1,12 @@
 # skill-downloader
 
-Tries to universally downloads skills from online repositories, to your `$OPENCODE_CONFIG/skills` directory.
+Tries to universally download skills from online repositories, to your `$OPENCODE_CONFIG/skills` directory.
 
 ## Installation
 
-Currently, copy project to your `opencode/plugins/skill-downloader` directory
+Currently, copy project to your `opencode/plugins/skill-downloader` directory.
 
-Later planning implementing release on npm so you can more simply install it
+Later planning implementing release on npm so you can install it more simply.
 
 ## Configuration
 
@@ -29,7 +29,7 @@ Later planning implementing release on npm so you can more simply install it
 
 ## Alternatives
 
-[skills](https://www.npmjs.com/package/skills)
+[skills](https://www.npmjs.com/package/skills)\
 [skillhub](https://github.com/iflytek/skillhub) or any other skill registry so you don't need to use this at all
 
 ## Disclaimer
@@ -43,5 +43,7 @@ I tested only these repositories you see in configuration step, but should work 
 
 I don't understand typescript at all.
 I don't plan to maintain this, adding features, unless beneficial to me. I'm open to pull-requests, or fork it.
+
+Might clutter `.local/share/opencode/log/opencode.log`, rest of debug logs are in `/tmp/opencode-skill-downloader-debug.log`, untested for Windows environment.
 
 Hopefully one day, opencode will integrate similar capability into their `skills:` config entry
