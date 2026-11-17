@@ -1,0 +1,29 @@
+{
+  "name": "skill-downloader",
+  "version": "1.0.0",
+  "description": "OpenCode V2 plugin for downloading and syncing skills from GitHub repositories",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist/**/*",
+    "types/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": ">=2.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^26.6.6"
+  }
+}
